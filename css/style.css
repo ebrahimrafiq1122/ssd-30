@@ -1,0 +1,1147 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.clr{
+    clear: both;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/* ====================
+    common css ends
+======================*/
+    .container{
+        width: 1170px;
+        margin: 0 auto;
+    }
+    .main{
+        display: flex;
+    }
+    /* ================
+        other css ends
+    ================= */
+  .head{
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 500;
+        color:#666666 ; 
+        font-size: 24px;
+        margin-left: 95px;
+    }
+   .pera{
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 500;
+        color:#d50a51 ; 
+        font-size: 32px;
+        text-transform: capitalize;
+        margin-left: 95px;
+    }
+     .lor {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        color: #444444;
+        font-size: 16px;
+        text-transform: capitalize;
+        padding-top: 54px;
+        width: 586px;
+    }
+      .lor2{
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        color:#444444 ; 
+        font-size: 16px;
+        text-transform: capitalize;
+        padding-top: 40px;
+        padding-bottom: 30px;
+        width: 586px;
+    }
+    .val{
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 500;
+        text-transform: capitalize;
+        color:#d50a51 ; 
+        font-size: 24px;
+        margin-left: 75px;
+        padding-top: 35px;
+    }
+   .lorem {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        color: #444444;
+        font-size: 16px;
+        line-height: 26px;
+        margin: 15px 20px;
+        width: 347px;
+    }
+    /* ================
+        common head css ends
+    ================= */
+
+    #menu{
+        width: 100%;
+        background-color: #fef5f9;
+        z-index: 99999;
+        padding-bottom: 20px;
+
+    }
+    .menu-fixed{
+        position: fixed;
+        top: 0;
+        left: 0;
+        box-shadow: 0px 5px 10px 0px #cf3274;
+    }
+   
+    #menu .main{
+        justify-content: space-between;
+    }
+    
+    #menu .main .logo{
+        width: 170px;
+        padding-top: 37px;
+    }
+    #menu .main .logo img{
+        width: 100%;
+    }
+    
+    #menu .main .list{
+        width: 800px;
+        position: relative;
+    }
+    
+    #menu .main .list img {
+        position: absolute;
+        top: 68px;
+        left: 403px;
+    }
+
+    #menu .main .list ul{
+        display: flex;
+        justify-content: center;
+    }
+    #menu .main .list ul li{
+      margin-left: 27px;
+      padding-top: 47px;
+    }
+    #menu .main .list ul li:hover a{
+        color: #d50a51;
+        transition: all linear .5s;
+    }
+    #menu .main .list ul li a{
+     text-transform: capitalize;
+     color: #000000;
+     font-family: 'Josefin Sans', sans-serif;
+     font-weight: 600;
+     font-size: 16px;
+
+    }
+    #menu .main .btn{
+        width: 200px;
+        margin-top: 30px;
+         position: relative;
+        border-radius: 30px 30px 30px 30px; 
+        background-color: #d50a51;
+        padding:15px 20px ;
+        cursor: pointer;
+        z-index: 0;
+    }
+    #menu .main .btn a{
+       margin-left: 30px;
+       text-transform: capitalize;
+       font-family: 'Josefin Sans', sans-serif;
+       font-weight: 600;
+       font-size: 20px;
+       color:#ffffff
+      
+    }
+    #menu .main .btn i {
+        font-size: 20px;
+        position: absolute;
+        top: 17px;
+        left: 21px;
+    }
+
+    
+    /* ================
+        menu css ends
+    ================= */
+
+#banner{
+    background-color: #fef5f9;
+    padding-top: 60px;
+}
+#banner .object{
+    width: 50%;
+}
+#banner .object img{
+    width:100%;
+}
+#banner .text{
+    width: 50%;
+    text-align: center;
+    padding-top: 86px;
+    position: relative;
+}
+#banner .text .hap{
+    text-transform: uppercase;
+    color: #8a5e3b;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    font-size: 61px;
+    
+}
+#banner .text .valen{
+	text-transform: capitalize;
+	color: #d50a51;
+	font-family: 'Great Vibes', cursive;
+	font-weight: 400;
+	font-size: 84px;
+	position: absolute;
+	top: 122px;
+	left: 76px;
+}
+#banner .text .lor{
+	text-transform: capitalize;
+	color: #444444;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+    margin-top: 70px;
+    width: 644px;
+}
+#banner .text .button {
+	width: 215px;
+	border-radius: 30px 30px 30px 30px;
+	border: 1px solid #d50a51;
+	padding: 20px 20px;
+	text-align: center;
+	margin: 60px auto;
+}
+#banner .text .button a{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #d50a51;
+    font-weight: 500;
+    font-size: 19px;
+    text-transform: capitalize;
+    
+}
+
+    
+/* ================
+banner css ends
+================= */
+#history{
+    padding-top: 100px;
+    padding-bottom: 95px;
+}
+#history .pic{
+    width: 50%;
+}
+    #history .pic img{ 
+        width: 100%;
+    }
+    #history .text{
+        width: 50%;
+    }
+    
+    #history .text .lor1{
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        color:#444444 ; 
+        font-size: 16px;
+        text-transform: capitalize;
+        line-height: 26px;
+        width: 584px;
+        margin-left: 45px;
+        padding-top: 60px;
+    }
+    #history .text .lor2{
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        color:#444444 ; 
+        font-size: 16px;
+        text-transform: capitalize;
+        line-height: 26px;
+        width: 592px;
+        margin-left: 45px;
+        padding-top: 35px;
+        padding-bottom: 100px;
+    }
+    
+    /* ================
+        history css ends
+    ================= */
+    #gift{
+        background-color: #fff6da;
+        position: relative;
+    }
+    #gift .text{
+       width: 50%;
+       padding-top: 85px;
+       position: relative;
+       padding-bottom: 35px;
+       padding-left: 100px;
+      
+    }
+    #gift .text .btn1{
+        width: 128px;
+        border: 1px solid #d50a51;
+        border-radius: 30px 30px 30px 30px;
+        padding: 17px;
+        background-color:#d50a51 ;
+    }
+    #gift .text .btn1 a{
+        color: #ffffff;
+        text-transform: capitalize;
+        text-align: center;
+    }
+    #gift .text .btn2 {
+        width: 170px;
+        border: 1px solid #d50a51;
+        border-radius: 30px 30px 30px 30px;
+        text-transform: capitalize;
+        text-align: center;
+        padding: 15px;
+        position: absolute;
+        top: 428px;
+        left: 248px;
+    }
+    #gift .text .btn2 a{
+        color: #d50a51;
+        text-transform: capitalize;
+        text-align: center;
+    }
+
+    #gift .images{
+       width: 50%;
+    }
+
+    #gift .images img {
+        position: absolute;
+        top: -220px;
+        right: 70px;
+    }
+    /* ================
+        gift css ends
+    ================= */
+    #card{
+        background-color: #ffffff;
+        padding-top: 120px;
+        padding-bottom: 95px;
+    }
+    #card .pic{
+       width: 50%;
+    }
+    #card .pic img{
+       width: 100%;
+    }
+    #card .text{
+       width: 50%;
+       text-align: end;
+       position: relative;
+    }
+    #card .text .lor{
+       width: 608px;
+       margin-left: 30px; 
+    }
+    #card .text .lor2{
+       width: 605px; 
+       margin-left: 30px; 
+    }
+    #card .text .btn1 {
+        width: 130px;
+        border: 1px solid #d50a51;
+        border-radius: 30px 30px 30px 30px;
+        text-transform: capitalize;
+        background-color: #d50a51;
+        text-align: center;
+        padding: 15px;
+        position: absolute;
+        top: 315px;
+        right: 125px;
+       
+    }
+  
+    #card .text .btn1 a{
+        color: #f1f1f1;
+        text-transform: capitalize;
+        text-align: center;
+    }
+  
+    #card .text .btn2 {
+        width: 150px;
+        border: 1px solid #d50a51;
+        border-radius: 30px 30px 30px 30px;
+        text-transform: capitalize;
+        text-align: center;
+        padding: 15px;
+        position: absolute;
+        top: 315px;
+        right: -45px;
+    }
+    #card .text .btn2 a{
+        color: #d50a51;
+        text-transform: capitalize;
+        text-align: center;
+    }
+
+    /* ================
+        card css ends
+    ================= */
+    #offer{
+        padding: 60px 0;
+        background:#fef5f9;
+    }
+    #offer .main{
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+    #offer .item{
+        width: 370px;
+    }
+
+    #offer .item .text .head{
+      margin-left: 12px;
+    }
+    #offer .item .text .pera{
+      margin-left: 12px;
+    }
+    #offer .item .text p.lor{
+       padding-top: 50px;
+       width: 350px;
+       line-height: 26px;
+    }
+    #offer .item .text p.lor2{
+       width: 350px;
+       line-height: 26px;
+    }
+    #offer .main .item2{
+        width: 370px;
+        height: 222px;
+        padding: 30px 0;
+        background: #f1f1f1;
+        border: 1px solid rgb(201, 127, 127);
+        position: relative;
+    }
+    #offer  .main .item2 img{
+        position: absolute;
+        top: 30px;
+        left: 30px;
+    }
+    #offer  .main .item3{
+        width: 370px;
+        padding: 30px 0;
+        position: relative;
+    }
+    #offer .main .item3 img {
+	position: absolute;
+	top: 35px;
+	left: 15px;
+}
+#offer .main .item3 .lory{
+    width: 350px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color:#444444 ; 
+    font-size: 16px;
+    text-transform: capitalize;
+}
+#offer  .main .item4{
+    width: 370px;
+    padding: 30px 0;
+    position: relative;
+}
+#offer .main .item4 img {
+	position: absolute;
+	top: 37px;
+	left: -5px;
+}
+
+    /* ================
+        offer css ends
+    ================= */
+    #shoot{
+        padding: 100px 0;
+    }
+    #shoot .main{
+        justify-content: space-between;
+    }
+    #shoot .item{
+        width: 370px;
+        /* height: 420px; */
+        position: relative;
+    }
+    #shoot .item .overlay{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.70);
+        top: 0;
+        left: 0;
+        opacity: 0;
+
+    }
+    #shoot .item .overlay:hover{
+        opacity: 1;
+        transition: all linear .9s;
+    }
+    #shoot .item .border1{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        border: 1px solid #c5ccca;
+        position: absolute;
+        top: 10px;
+        right: 15px;
+
+    }
+    #shoot .item .border1 i{
+        color: #ffffff;
+        font-size: 16px;
+        position: absolute;
+        top: 12px;
+        left: 12px;
+    }
+    #shoot .item .border1:hover{
+        background: #d50a51;
+        transition: all linear .4s;
+    }
+    #shoot .item .border2{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        border: 1px solid #c5ccca;
+        position: absolute;
+        top: 60px;
+        right: 15px;
+
+    }
+    #shoot .item .border2:hover{
+        background: #d50a51;
+        transition: all linear .4s;
+    }
+    #shoot .item .border2 i{
+        color: #ffffff;
+        font-size: 16px;
+        position: absolute;
+        top: 12px;
+        left: 12px;
+    }
+    #shoot .item .border3{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        border: 1px solid #c5ccca;
+        position: absolute;
+        top: 110px;
+        right: 15px;
+
+    }
+    #shoot .item .border3:hover{
+        background: #d50a51;
+        transition: all linear .4s;
+    }
+    #shoot .item .border3 i{
+        color: #ffffff;
+        font-size: 16px;
+        position: absolute;
+        top: 12px;
+        left: 12px;
+    }
+    #shoot .item .border4{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        border: 1px solid #c5ccca;
+        position: absolute;
+        top: 160px;
+        right: 15px;
+
+    }
+    #shoot .item .border4:hover{
+        background: #d50a51;
+        transition: all linear .4s;
+    }
+    #shoot .item .border4 i{
+        color: #ffffff;
+        font-size: 16px;
+        position: absolute;
+        top: 12px;
+        left: 12px;
+    }
+   
+    #shoot .item .roman{
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+        color: #ffffff;
+        text-transform: capitalize;
+       margin: 0 auto;
+        position: absolute;
+        bottom: 50px;
+        left: 100px;
+    }
+    #shoot .item i{
+        color: #ffffff;
+    }
+    #shoot .item .content{
+        position: absolute;
+        bottom: 20px;
+        left: 5px;
+    }
+    #shoot .item .content a{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-left: 5px;
+    }
+    #shoot .item .va{
+            font-family: 'Josefin Sans', sans-serif;
+            font-weight: 500;
+            color:#666666 ; 
+            font-size: 24px;
+            text-align: right;
+            padding-top: 30px;
+         
+    }
+    #shoot .item .pe{
+            font-family: 'Josefin Sans', sans-serif;
+            font-weight: 500;
+            color:#d50a51 ; 
+            font-size: 32px;
+            text-transform: capitalize;
+            text-align: right;
+            padding-bottom: 55px;
+        }
+        #shoot .item .lore{
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        color: #444444;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: right;
+        width: 404px;
+        
+        }
+        #shoot .item .lore2{
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        color: #444444;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: right;
+        padding-top: 40px;
+        width: 405px;
+        }
+        #shoot .item .btn1 {
+            width: 130px;
+            border: 1px solid #d50a51;
+            border-radius: 30px 30px 30px 30px;
+            text-transform: capitalize;
+            background-color: #d50a51;
+            text-align: center;
+            padding: 15px;
+            position: absolute;
+            bottom: 23px;
+            left: 76px;
+           
+        }
+      
+        #shoot .item .btn1 a{
+            color: #f1f1f1;
+            text-transform: capitalize;
+            text-align: center;
+        }
+      
+        #shoot .item .btn2 {
+            width: 170px;
+            border: 1px solid #d50a51;
+            border-radius: 30px 30px 30px 30px;
+            text-transform: capitalize;
+            text-align: center;
+            padding: 15px;
+            position: absolute;
+            bottom: 23px;
+            right: -26px;
+        }
+        #shoot .item .btn2 a{
+            color: #d50a51;
+            text-transform: capitalize;
+            text-align: center;
+        }
+        #shoot .main2{
+            display: flex;
+            justify-content: space-between;
+            padding-top: 30px;
+        }
+
+    /* ================
+        shoot css ends
+    ================= */
+        #year{
+            background: url(../images/year.jpg) no-repeat center /cover;
+            padding-bottom: 95px;
+            padding-top: 35px;
+        }
+        #year .main{
+            justify-content: space-between;
+            
+        }
+        #year .iten{
+            width: 270px;
+          margin: 0 auto;
+          text-align: center;
+        }
+        
+        #year .iten .text .num{
+            font-size: 32px;
+            color: #d50a51;
+            font-family: 'Josefin Sans', sans-serif;
+            font-weight: 600;
+        }
+        #year .iten .text .da{
+            font-size: 32px;
+            color: #444444;
+            text-transform: capitalize;
+            font-family: 'Josefin Sans', sans-serif;
+            font-weight: 600;
+            padding-bottom: 18px;
+        }
+    /* ================
+        year css ends
+    ================= */
+    #director .main{
+        justify-content: space-between;
+    }
+    #director .container{
+        padding-top: 140px;
+    }
+    #director .direct{
+        width: 570px;
+        background: #fffae2;
+        padding-bottom: 20px;
+        position: relative;
+
+    }
+    
+    #director .direct .lala {
+        position: absolute;
+        top: -36px;
+        left: -34px;
+    }
+    #director .direct .lolo {
+        position: absolute;
+        bottom: -35px;
+        right: -36px;
+    }
+    #director .direct .text{
+        padding-top: 42px;
+        text-align: center;
+    }
+    #director .direct .text .point{
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        width: 506px;
+        margin: 0 auto;
+        padding-bottom: 20px;
+    }
+    #director .direct .content{
+        width: 570px;
+        position: relative;
+    }
+    #director .direct .content .border{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+       border: 1px solid transparent;
+       margin-left: 33px;
+      
+    }
+    #director .direct .content .tec {
+        position: absolute;
+        bottom: 20px;
+        left: 158px;
+    }
+    #director .direct .content .tec h2{
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 700px;
+        font-size: 20px;
+        color: #222222;
+        text-transform: capitalize;
+    }
+    #director .direct .content .tec p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #444444;
+    }
+
+    /* ================
+        direct css ends
+    ================= */
+    #news{
+        padding-top: 98px;
+    
+    }
+    #news .container{
+        position: relative;
+      
+    }
+    #news .main{
+        padding-bottom: 30px;
+        padding-top: 42px;
+        background-color: #d50a51;
+        border-radius: 70px;
+      
+    }
+    #news  .text{
+        width: 470px;
+        text-align: center;
+        position: relative;
+    }
+    
+    #news  .text h2{
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 700;
+        font-size: 40px;
+        color: #ffffff;
+        text-transform: uppercase;
+        margin-left: 130px;
+    }
+    #news .text i {
+        font-size: 50px;
+        color: #ffffff;
+        position: absolute;
+        top: -4px;
+        left: 100px;
+    }
+    #news .text p{
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        color: #ffffff;
+        margin-left: 130px;
+    }
+
+    #news .form{
+        width: 570px;
+        display: flex;
+        justify-content:space-between;
+    }
+    #news  .letter .form input::placeholder{
+        color: #ffffff;
+    }
+
+    #news .form .katarnak{
+        width: 270px;
+        background: transparent;
+        padding: 20px;
+        border: 1px solid #ffffff;
+        /* color: #ffffff; */
+        font-size: 13px;
+        font-style: italic;
+        
+    }
+ 
+    #news .form {
+        position: relative;
+    }
+  
+    #news .form .border {
+        font-size: 20px;
+      
+       
+    }
+    #news .form .border .butn{
+         width: 50px;
+        height: 57px;
+        line-height: 35px;
+        font-size: 18px;
+        color: #ffffff;
+        background-color: transparent;
+        line-height: 55px;
+        position: absolute;
+        bottom: 0;
+        right: 15px;
+
+    }
+    /* ================
+        news css ends
+    ================= */
+    #valentine{
+        padding-top: 100px;
+        margin-top: -60px;
+        background: #fbddea;
+        padding-bottom: 30px;
+       
+      
+    }
+  
+    #valentine .main{
+        display: flex;
+        justify-content: space-between;
+
+    }
+    #valentine .main .pic{
+        margin: 0 auto;
+    }
+    #valentine .item-1{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 60px;
+    }
+
+    #valentine .item{
+        width: 370px;
+        padding-bottom: 60px;
+        position: relative;
+    }
+    #valentine .item .border{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background: #d50a51;
+    }
+    #valentine .item .border i{
+        color: #ffffff;
+        font-size: 26px;
+        line-height: 50px;
+        margin-left: 13px;
+    }
+    #valentine .item .text {
+        text-transform: capitalize;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        color: #444444;
+        position: absolute;
+        top: 3px;
+        left: 69px;
+    }
+    #valentine .other{
+       width: 370px;
+       margin: 0 auto;
+    }
+    #valentine .other h1{
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        color: #d50a51;
+        text-transform: capitalize; 
+        padding-bottom: 30px;
+        margin-left: 85px;
+      
+    }
+    #valentine .other .icon{
+        width: 245px;
+        display: flex;
+       
+    }
+    #valentine .other .icon .border{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        border: 1px solid #d50a51;
+        margin-left: 10px;
+    }
+    #valentine .other .icon .border i{
+        color:#d50a51 ;
+        line-height: 40px;
+        font-size: 20px;
+        margin-left: 10px;
+    }
+  /*================ 
+        news css ends
+    ================= */
+#ends{
+    background-color: #d8b1c1;
+    padding: 20px 0;
+}
+    #ends .container p{
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        color: #666666;
+       
+    }
+  /*================ 
+        news css ends
+    ================= */
+    .back-btn{
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 9999;
+        animation: run 5s infinite;
+        display: none;
+        
+    }
+     @keyframes run{
+        0%{
+            transform: translateY(0);
+        }
+        50%{
+            transform: translateY(-40px);
+        }
+        100%{
+            transform: translateY(0);
+        }
+    }
+    .back-btn i{
+        width: 40px;
+        height: 40px;
+        border: 2px solid #444444;
+        line-height: 40px;
+        color: #d50a51;
+        text-align: center;
+        font-size: 20px;
+        cursor: pointer;
+    }
+   
+  /*================ 
+        btn css ends
+    ================= */
+
+    .preload{
+        width: 100%;
+        height: 100vh;
+        background:rgba(0, 0, 0, 0.801);
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 999999;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .preload .border{
+        width: 200px;
+        height: 200px;
+        border: 3px solid transparent;
+        border-radius: 50%;
+        border-left-color: #d50a51;
+        border-right-color: #d50a51;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        animation: doura 5s infinite;
+      
+    }
+    /* .preload .border2{
+        width: 190px;
+        height: 190px;
+        border: 2px solid transparent;
+        border-radius: 50%;
+        border-left-color: #d50a51;
+        border-right-color: #d50a51;
+        justify-content: center;
+        align-items: center;
+        display: flex
+    } */
+    @keyframes doura{
+        0%{
+            transform: rotate(0deg);
+        }
+        100%{
+            transform: rotate(360deg);
+        }
+    }
+    .preload .one{
+        font-size: 30px;
+        color: #ffffff;
+        
+    }
+    .preload .love{
+        color: #d50a51;
+          margin-left: 10px;
+        animation: gur 2s infinite;
+        font-size: 40px;
+    }
+
+    @keyframes gur{
+        0%{
+            transform: translateY(0);
+        }
+        50%{
+            transform: translateY(-30px);
+            
+           
+        }
+        100%{
+            transform: translateY(0);
+
+        }
+    }
+    
+  /*======================
+    preloader css ends
+   ======================= */
+   .login {
+	width: 400px;
+	height: 300px;
+	background: #413932;
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	position: absolute;
+	top: 178px;
+	right: 574px;
+	display: none;
+	z-index: 1;
+}
+
+   .login .add1{
+      margin-bottom: 40px;
+      width: 200px;
+      height: 40px;
+      background-color:#cf3274 ;
+      color: #ffffff;
+   }
+   .login .add2{
+      margin-bottom: 20px;
+      width: 200px;
+      height: 40px;
+      background: #cf3274;
+      color: #ffffff;
+   }
+   .login .log{
+      width: 80px;
+      height: 30px;
+      margin-left: 40px;
+     background: #d50a51;
+     
+   }
+   form h2{
+       display: flex;
+       justify-content: space-between;
+       color: #ffffff;
+       font-size: 20px;
+       font-style: italic;
+       text-transform: capitalize;
+       margin-bottom: 30px;
+       text-align: center;
+      
+   }
+   form h2 span{
+       position: absolute;
+       top: 0;
+       right: 10px;
+       font-size: 30px;
+    cursor: pointer;
+   }
+  
+  /*======================
+    form css ends
+   ======================= */
